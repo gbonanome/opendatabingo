@@ -1,4 +1,3 @@
-
 var source   = $("#excuses-template").html();
 var template = Handlebars.compile(source);
 var data1 = { excuse: [
@@ -37,7 +36,7 @@ var data1 = { excuse: [
 },
 {
 	id: "5",
-	title: "È troppo grande", 
+	title: "Il dataset è troppo grande", 
 	answers: [
 		{answer: "Probabilmente non è grande come pensano (a meno che si stia parlando del CERN)."},
 		{answer: "I titolari dei dati sono probabilmente fieri delle dimensioni del loro dataset, quindi non insultarli dichiarando che non è qualcosa di veramente grosso."},
@@ -53,13 +52,13 @@ var data1 = { excuse: [
 	]
 },
 {	id: "7",
-	title: "Potremmo utilizzarli in una pubblicazione nostra", 
+	title: "Potremmo utilizzare i dati in una pubblicazione nostra", 
 	answers: [
 		{answer: "Un’opzione è avere un periodo di embargo automatico o opzionale; richiedendo alle persone di archiviare i loro dati al momento della creazione ma rendendoli disponibili dopo X mesi. Potresti addirittura offrire l’opzione di rinnovare l’embargo, così potrebbero essere pubblicate solo le cose per cui non c’è più interesse, ma senza perdere l’opportunità di rendere, alla fine, tutto aperto."}
 	]
 },
 {	id: "8",
-	title: "Non c’è una API per ottenerli",
+	title: "Non c’è una API per ottenere i dati",
 	answers: [
 		{answer: "Non serve necessariamente una API pubblica. Che ne pensi di un’interfaccia con il database (SQL) dietro le quinte? Potrebbe anche essere possibile esportare i dati come file piatti e riversarli in un qualche posto adeguato alla loro successiva trasformazione."},
 		{answer: "Come ultima risorsa, puoi ottenere i dati dal sito pubblico."},
@@ -87,7 +86,7 @@ var data2 = { excuse: [
 	]
 },
 {	id: "11",
-	title: "Non ho problemi a renderli aperti, ma sono preoccupato che qualcun altro possa obiettare qualcosa", 
+	title: "Non ho problemi a rendere i dati aperti, ma sono preoccupato che qualcun altro possa obiettare qualcosa", 
 	answers: [
 		{answer: "Questa è più una manovra diversiva che un vero problema."},
 		{answer: "Implica che la persona ha paura di essere accusata per aver fatto un errore."},

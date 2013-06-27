@@ -4,10 +4,13 @@
    Author's custom styles
    ========================================================================== */
 
+footer {
+	margin-top: 40px;
+}
 
-
-
-
+.page-header small {
+	font-size: 16px;
+}
 
 
 
